@@ -5,6 +5,7 @@ email: JohnyBgoode@seznam.cz
 discord: JohnyBgoode84
 """
 
+
 import sys
 import csv
 import requests
@@ -104,12 +105,12 @@ def download_data():
         cities_list = []
 
 # ULOŽENÍ STAŽENÝCH VÝSLEDKŮ DO SOUBORU
-def save_data(soubor):
+def save_data(save_file):
     temp = []
     temp.extend(title)
     temp.extend(political_parties_list)
-    print(f"Ukladám data do souboru pod názvem \"{soubor}\".")
-    with open(soubor, "w", newline='', encoding='utf-8') as file:
+    print(f"Ukladám data do souboru pod názvem \"{save_file}\".")
+    with open(save_file, "w", newline='', encoding='utf-8') as file:
         wr = csv.writer(file)
         wr.writerow(temp)
         wr.writerows(complete_list)
