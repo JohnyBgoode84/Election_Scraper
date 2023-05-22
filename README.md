@@ -9,10 +9,10 @@ Odkaz na výsledky voleb konané v roce 2017: https://volby.cz/pls/ps2017nss/ps3
 # INSTALACE POTŘEBNÝCH KNIHOVEN
 Potřebné knihovny, včetně verzí, naleznete v souboru "requirements.txt"
 
-Je doporučeno použít nové virtuální prostředí a pomocí manažera spustit =
+Je doporučeno použít nové virtuální prostředí a pomocí manažera spustit:
 
-pip3 --version                    (ověření verze manažeru)
-pip3 install -r requirements.txt  (nainstalování knihoven z txt souboru)
+pip3 --version                    (pro ověření verze manažeru)
+pip3 install -r requirements.txt  (pro nainstalování knihoven z .txt souboru)
 	
 
 # SPUŠTĚNÍ
@@ -29,5 +29,3 @@ python projekt_3.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumn
 
 
 Poté se stáhnou data ze zadaného odkazu a uloží se do souboru s příponou ".csv".
-
----
