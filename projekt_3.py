@@ -16,7 +16,7 @@ political_parties_list = []
 def input_arguments():
     arguments = sys.argv
     if len(arguments) != 3:
-        print("Chybný počet parametrů. Zadejte prosím odkaz na webové stránky voleb a název výstupního souboru s příponou .csv.")
+        print("Chybný počet parametrů. Zadejte prosím odkaz na webové stránky voleb a název výstupního souboru s příponou .csv!")
         sys.exit(1)
 
     url_argument = arguments[1]
