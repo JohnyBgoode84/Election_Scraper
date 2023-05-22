@@ -1,4 +1,4 @@
-ELECTIONS SCRAPER - Třetí projekt Engeto Online Python Akademie.
+ELECTIONS SCRAPER - třetí projekt Engeto Online Python Akademie.
 
 # POPIS
 Tento skript extrahuje ze všech měst z vybraného okresu výsledky z hlasování do Poslanecké směnovny Parlamentu České republiky, které proběhlo v roce 2017.
@@ -29,3 +29,5 @@ python projekt_3.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumn
 
 
 Poté se stáhnou data ze zadaného odkazu a uloží se do souboru s příponou ".csv".
+
+---

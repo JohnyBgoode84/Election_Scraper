@@ -1,3 +1,10 @@
+"""
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+author: Jan Černý
+email: JohnyBgoode@seznam.cz
+discord: JohnyBgoode84
+"""
+
 import sys
 import csv
 import requests
