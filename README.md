@@ -17,14 +17,15 @@ pip3 install -r requirements.txt  (nainstalování knihoven z txt souboru)
 
 # SPUŠTĚNÍ
 Pro spuštění programu je potřeba spustit soubor "projekt_3.py" a následně zadat dva povinné argumenty. 
-1. argument = URL vybraného okresu
+1. argument = URL vybraného okresu (výběr zde https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ . Po výběru zkopírujeme URL odkaz)
 2. argument = Název výstupního souboru s příponou ".csv"
 
 Pozn.: Pro spuštění využijeme příkazový řádek.
 
 # UKÁZKA SPUŠTĚNÍ
-Pro příklad níže jsou zvoleny výsledky do PS ze Semilského okresu
+Pro příklad jsou níže zvoleny výsledky do PS ze Semilského okresu:
 
 python projekt_3.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5104" "vysledky_voleb_okres_semily.csv"
+
 
 Poté se stáhnou data ze zadaného odkazu a uloží se do souboru s příponou ".csv".
